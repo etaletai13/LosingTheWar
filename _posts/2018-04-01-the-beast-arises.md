@@ -1,13 +1,10 @@
+---
 layout : post  
 title : The Beast Arises 
 subtitle : Seeing myself in the mirror through new eyes.
 description : This is how my journey to the feet of Christ started.
-category : Testimony 
-tags :  
-  - Bootstrap  
-  - Jekyll  
-
-===
+category : Testimony  
+---
 
 Through this, my commentary and testimony to the witness of Jesus Christ, who is my sole owner and the only sovereign, savior of the damned. You can read along and watch my battle, and see how Jesus takes down Satan over the course of seven days, and keeps him down. He has won the least deserving one. This is the chronical of the obedient submission of The Lawless One; Me; Satan.
 
