@@ -1,34 +1,9 @@
-# The following configuration items need set up specifically for your site
-#
-# name - This is the site name. The site name is used in the title of
-# each page and blog post.
-#
-# brand - This is what will appear in the upper left of the navbar.
-#
-# description - If there isn't a title for a page or post, the site's
-# description will be used instead.
-#
-# url - This is the fully qualified url of the website. Include the
-# https://.
-#
-# email - The email address of the site administrator.
-#
-# author - The default author for all posts. This can be overridden in the
-# front matter of a post.
-#
-# Here's an example configuration:
-# name : The Dereck
-# brand : The Dereck
-# description : Dereck's Awesome Blog
-# url : https://thedereck.github.io
-# email : thedereck@thedereck.com
-# author : Dereck Curry
-name : gh-pages-blog
-brand : gh-pages-blog
-description : The Official gh-pages-blog GitHub Page
-url : https://thedereck.github.io/gh-pages-blog
-email : thedereck@thedereck.com
-author: Dereck Curry
+name : Losing the War
+brand : etaletai dies
+description : Losing the War: How Christ Defeated Satan
+url : https://etaletai13.github.io/LosingTheWar
+email : 13@etaletai.com
+author: Casey Joel Parker
 
 
 # The following is a list of files to exclude from inclusion in the
@@ -39,7 +14,7 @@ exclude : [ README.md , version.txt ]
 # Replace the number with the default number of blot posts you want on each
 # page. A value of 0 will indicate that you don't want to paginate, and all
 # blog posts will be on the index page.
-paginate : 10
+paginate : 7
 
 
 # To put a alert or notice on every page served, change the appropriate value
