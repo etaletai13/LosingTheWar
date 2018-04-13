@@ -1,0 +1,9 @@
+{
+  "filters": {},
+  "plugins": {
+    "textlint-plugin-html": true},
+  "rules": {
+    "no-start-duplicated-conjunction": true,
+    "spellcheck-tech-word": true
+    }
+}

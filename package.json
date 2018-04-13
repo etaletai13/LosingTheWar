@@ -1,0 +1,23 @@
+{
+  "name": "losing-the-war",
+  "version": "0.0.1-draft",
+  "description": "Losing the War. How God took down the Devil in seven days.",
+  "main": "index.html",
+  "repository": "git@github.com:etaletai13/losingthewar",
+  "author": "etaletai <13@etaletai.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "textlint": "^10.2.1",
+    "textlint-plugin-html": "^0.1.7",
+    "textlint-rule-no-start-duplicated-conjunction": "^2.0.2",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  },
+  "scripts": {
+    "prepare": "yarn run textlint **/*.md",
+    "write:post": "cp template.page _posts/yyyy-mm-dd-title.md && vim _posts/yyyy-mm-dd-title.md && yarn run textlint _posts/*.md",
+    "edit:fix": "clear && yarn run textlint _posts/*.md --fix",
+    "pub": "git add _posts/*md && clear && git commit _posts/* && clear && git push"
+  },
+  "textlint": true
+}
